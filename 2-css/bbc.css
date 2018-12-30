@@ -1,0 +1,252 @@
+	<style type="text/css">
+
+		body{
+			margin:0;
+			padding: 0;
+			font-family: helvetica; 
+			font-size: 13px;
+			color: #121212;
+
+		}
+		
+		#topbar{
+			width:1150px;
+			margin:0 auto;
+			height: 40px;
+
+		}
+
+		#logo{
+			margin-top: 8px;
+			float: left;
+			padding-right: 15px;
+		}
+
+		#signin-text{
+			float: left;
+			font-weight: bold;
+			padding-top: 15px;
+			padding-right: 80px;
+			color: #121212;
+
+		}
+
+		#signinimg{
+			margin: 10px 0px 10px 10px;
+			float: left;
+		}
+
+		.topbarsection{
+			float: left;
+			border-left: 1px #AEAEAE solid;
+			height: 100%;
+			font-weight: bold;
+		}
+
+		.topbarmenu{
+			padding: 13px 18px 0px 18px;
+			height: 28px;
+
+		}
+
+		.searchboxmenu{
+			padding: 10px 0px 0px 18px;
+			height: 30px;
+		}
+
+
+		#arrow{
+			
+			padding-top: 5px;
+			padding-left: 30px;
+			width: 10px;
+		}
+
+		#searchbox{
+			background-color: #E4E4E4;
+			border: none;
+			font-size: 15px;
+			float: left;
+
+		}
+
+		#glass{
+			padding: 0px;
+			float: left;
+		}
+
+
+		#midbar{
+			width: 100%;
+			height: 70px;
+			background-color: #BB1919;
+		}
+
+		#NEWS{
+			float: left;
+			padding: 5px 0px 0px 120px;
+			color: #FFFFFF;
+			font-size: 50px;
+		}
+
+		.clear{
+			clear: both;
+		}
+
+		#localnews{
+			position: relative;
+			left: 815px;
+			top: 20px;
+			float: left;
+			
+		}
+
+		#localnews a {
+			padding: 5px;
+			border: 1px grey solid;
+			text-decoration: none;
+			color: #FFFFFF;
+			font-size: 20px;
+
+		}
+		#localnews a:hover{
+			text-decoration: underline;
+		}
+
+
+		#lastbar{
+			width: 100%;
+			height: 40px;
+			background-color: #AC2C25;
+		}
+
+		#technology{
+
+		}
+
+		h2{
+			font-weight: normal;
+			float: left;
+			position: relative;
+			left: 120px;
+			padding-bottom: 2px;
+			border-bottom: 3px #BB1919 solid;
+
+		}
+
+		#asda-header{
+			text-decoration: none;
+			color: #686868;
+			font-size: 35px;
+			position: relative;
+			top: 70px;
+			font-weight: bold;
+
+
+		}
+
+		#ASDA a:hover {
+			color: #0D6AC6;
+		}
+
+		#ASDA{
+			width: 700px;
+			margin:0 auto;
+			height: 400px;
+			position: absolute;
+			left: 120px;
+			
+
+
+		}
+
+
+		#summary{
+			width: 235px;
+			margin:0 auto;
+			height: 100px;
+			font-size: 15px;
+			color: #686868;
+			float: left;
+			position: relative;
+			top: 70px;
+
+		}
+
+		#summary img{
+			width: 15px;
+		}
+
+		#summary a{
+			text-decoration: none;
+			color: #BB1919;
+			
+
+		}
+
+		#summary a:hover{
+			color: #0D6AC6;
+		}
+		#asda-pic{
+			float: left;
+			position: relative;
+			top: 120px;
+			left: 270px;
+
+		}
+
+		.bottom-link{
+
+			color: black !important;
+		}
+
+		.bottom-link a:hover {
+			color: #0D6AC6;
+		}
+
+		#watchlisten{
+			width: 350px;
+			height:700px;
+			float: right;
+			position: relative;
+			right: 220px;
+			font-size: 25px;
+			top: 75px;
+			border-left: solid #d0dce8;
+			border-width: 0 1px;
+			padding-left: 20px;
+
+		}
+
+
+		.vidoes a {
+			text-decoration: none;
+			float: left;
+			font-size: 17px;
+			font-weight: bold;
+			color: black;
+		}
+
+		.vidoes img{
+			float: left;
+			padding-top: 30px;
+		}
+
+		.vidoes a:hover {
+			color: #0D6AC6;
+		}
+
+		.vidoes{
+			display: flex;
+   			align-items:center;
+		}
+
+		.sub{
+			font-size: 12px;
+			float: left;
+			width: 100px;
+			position: relative;
+			top: 30px;
+		}
+
+			</style>
