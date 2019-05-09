@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reaction</title>
+	<style type="text/css">
+		
+		#circle{
+			width: 200px;
+			height: 200px;
+			position: relative;
+			border-radius: 50%;
+			display: none;
+			background-color: red;
+			
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1 id="time">YOUR REACTION TIME IS: <span id="timetaken"></span></h1>
+
+	<div id="circle"></div>
+
+
+	<script type="text/javascript">
+
+	var start =	new Date().getTime();
+	appearAfter();
+	
+ 
+
+	function appear(){
+		document.getElementById('circle').style.background = "red"
+		document.getElementById('circle').style.width = "50px"
+		document.getElementById('circle').style.height = "50px"
+		document.getElementById('circle').style.top = "100px"
+		document.getElementById('circle').style.left = "100px"
+		document.getElementById('circle').style.display = "block"
+		start = new Date(),getTime
+
+	}
+
+	function appearAfter(){
+		setTimeout(appear,(Math.random()*1000))
+
+
+	}
+
+	
+
+	//disapear
+	document.getElementById('circle').onclick = function() {
+		document.getElementById('circle').style.display = "none"
+		var end = new Date().getTime();
+		var tot = end - start 
+		document.getElementById('timetaken').innerHTML = tot;
+		appearAfter();
+	} 
+
+
+		/*	
+
+		document.getElementById('circle').onclick = function disappear() {
+		document.getElementById('circle').style.background = "white"
+		document.getElementById('time').style.display = "none"
+		document.getElementById('Result').innerHTML = document.getElementById('time').innerHTML +pause;
+		}
+
+		setTimeout(disappear,Math.random()*400)
+		document.getElementById('circle').style.background = "white"
+	*/
+
+	</script>
+
+
+</body>
+
+
+</html>
