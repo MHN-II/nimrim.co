@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		JS PRACTICE
+	</title>
+</head>
+<body>
+	<button onclick="UI.Display()">Display Todo</button>
+	<button onclick="handlers.Toggleall()">Check All</button>
+	<br><br>
+	
+	<div name="addtodo">
+		<input id="newtodo" type="text">
+
+		<button onclick="handlers.Add(newtodo)">Add Todo</button>
+	</div>
+	
+	<br>
+
+	<div name="edittodo">
+		<input id="item" type="number">
+		<input id="update" type="text">
+		<button onclick="handlers.Edit()">Edit Todo</button>
+	</div>
+
+	<br>
+
+	<div name="Deletetodo">
+		<input id="delete" type="number">
+		<button onclick="handlers.Delete()">Delete</button>
+	</div>
+
+
+	<br>
+
+	<div name="Toggletodo">
+		<input id="toggle" type="number">
+		<button onclick="handlers.Toggle()">Check </button>
+	</div>
+
+	<p id="emptylist"></p>
+
+	<ul id="todolist">
+		
+	</ul>
+
+	<script type="text/javascript" src="wl.js"></script>
+
+</body>
+</html>
